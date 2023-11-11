@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+header {
+  font-family: "Anonymous Pro", sans-serif;
+  width: 1440px;
+  height: 110px;
+  border-bottom: 1px solid #A1A6B4;
+}
+
+.view {
+  height: 110px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin: 0px 140px;
+  border: 5px;
+}
+
+.contacts {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.links {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.link {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 24px;
+}
+
+main {
+  font-family: "Anonymous Pro", sans-serif;
+  width: 1440px;
+  background: #E6E8EC66;
+  margin: 0px;
+}
+
+.title {
+  color: var(--black, #121723);
+  font-size: 48px;
+  font-weight: 700;
+  padding: 25px 140px 0px;
+  margin: 0px
+}
+
+.container {
+  width: 371px;
+}
+
+.sneakers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 22px;
+  padding: 25px 140px;
+}
+
+.card__info {
+  border-radius: 0px 0px 12px 12px;
+  background: white;
+  padding: 32px 24px;
+  min-height: 72px;
+}
+
+.container__text {
+  margin: 8px 0px;
+}
+
+h3 {
+  margin: 0;
+  color: var(--black, #121723);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  font-style: normal;
+  line-height: normal;
+}
+
+img {
+  width: 370px;
+}
+
+footer {
+  font-family: "Anonymous Pro", sans-serif;
+  width: 1440px;
+  background: #121723;
+  color: white
+}
+
+.end {
+  border: 6px;
+  color: #E6E8EC66;
+}
+
+.sign {
+  margin: 0px 0px 0px 140px;
+  max-width: 1160px;
+  width: 100%;
+  border-top: 1px solid rgba(230, 232, 236, 0.40);
+  padding: 20px 0px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: var(--text_gray, #A1A6B4);
+  font-family: Anonymous Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
